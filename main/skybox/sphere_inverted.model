@@ -1,0 +1,7 @@
+mesh: "/main/skybox/sphere_inverted.dae"
+material: "/main/skybox/sky.material"
+textures: "/main/skybox/stars.png"
+skeleton: ""
+animations: ""
+default_animation: ""
+name: "unnamed"

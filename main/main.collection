@@ -22,7 +22,7 @@ instances {
     }
     properties {
       id: "nearZ"
-      value: "1.0"
+      value: "0.1"
       type: PROPERTY_TYPE_NUMBER
     }
     properties {
@@ -263,6 +263,32 @@ embedded_instances {
     x: 15.0
     y: 15.0
     z: 15.0
+  }
+}
+embedded_instances {
+  id: "skybox"
+  children: "bg_back"
+  children: "bg_bottom"
+  children: "bg_front"
+  children: "bg_left"
+  children: "bg_right"
+  children: "bg_top"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
   }
 }
 embedded_instances {
